@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+
+  .row {
+    flex-direction: row;
+ }
+
+ .box {
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 7%);
+    border-width: 12px;
+    padding: 1.6rem;
+    width: 24rem;
+    border-radius: 18px;
+ }
+.tag {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.figtree-text {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.figtree-big {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+/* Yellow: hsl(47, 88%, 63%)
+White: hsl(0, 0%, 100%)
+Grey: hsl(0, 0%, 50%)
+Black: hsl(0, 0%, 7%) */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
