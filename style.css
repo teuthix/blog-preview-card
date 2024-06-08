@@ -2,11 +2,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
     background-color: hsl(47, 88%, 63%);
 }
 
+h1 {
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-top: 1rem;
+}
 p {
-    font-size: 1rem;
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
 }
 
 img {
@@ -16,30 +27,41 @@ img {
 .container {
     display: flex;
     flex-direction: column;
-    
   }
 
-  .item {
-    flex: 1;
-    margin: 10px;
-  }
-
-  .row {
+.row {
     flex-direction: row;
+    align-items: center;
  }
 
- .box {
+.box {
     background-color: hsl(0, 0%, 100%);
-    border-color: hsl(0, 0%, 7%);
-    border-width: 12px;
     padding: 1.6rem;
-    width: 24rem;
+    width: 22rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsl(0, 0%, 7%);
     border-radius: 18px;
+    filter: drop-shadow(8px 8px);
  }
+
+
+
 .tag {
     background-color: hsl(47, 88%, 63%);
-    border-radius: 5px;
-    padding: 1rem;
+    border-radius: 8px;
+    padding: .8rem;
+    /* is there a better way to set the width? */
+    width: 4.2rem;
+    margin-top: 1.6rem;
+    justify-content: center;
+}
+
+.icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 14px;
+
 }
 
 .figtree-text {
