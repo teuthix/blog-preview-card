@@ -16,14 +16,8 @@ h1 {
     
 }
 
-h4 {
-    font-size: .9rem;
-    margin-top: 1rem;
-}
-
 p {
     font-size: .8rem;
-    color: hsl(0, 0%, 50%);
 }
 
 img {
@@ -74,6 +68,10 @@ img {
     margin-right: 14px;
 }
 
+.grey {
+  color: hsl(0, 0%, 50%);
+}
+
 .figtree-text {
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
@@ -103,13 +101,7 @@ img {
       margin-bottom: 0;
   }
   
-  h4 {
-    font-size: 1rem;
-      margin-top: 1rem;
-  }
-  
   p {
       font-size: 1rem;
-      color: hsl(0, 0%, 50%);
   }
 }
