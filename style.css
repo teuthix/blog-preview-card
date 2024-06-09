@@ -1,13 +1,14 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    background-color: hsl(47, 88%, 63%);
+  background-color: hsl(47, 88%, 63%);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -15,6 +16,7 @@ h1 {
 h4 {
     margin-top: 1rem;
 }
+
 p {
     font-size: 16px;
     color: hsl(0, 0%, 50%);
@@ -35,25 +37,29 @@ img {
  }
 
 .box {
+    margin: auto;
     background-color: hsl(0, 0%, 100%);
     padding: 1.6rem;
-    width: 22rem;
+    width: 20rem;
     border-style: solid;
     border-width: 2px;
     border-color: hsl(0, 0%, 7%);
     border-radius: 18px;
-    filter: drop-shadow(8px 8px);
+    box-shadow: hsl(0, 0%, 7%) 10px 10px;
+    transition: .5s;
  }
 
-
+ .box:hover {
+    box-shadow: hsl(0, 0%, 7%) 15px 17px;
+}
 
 .tag {
     background-color: hsl(47, 88%, 63%);
     border-radius: 8px;
-    padding: .8rem;
-    /* is there a better way to set the width? */
-    width: 4.2rem;
+    padding: .6rem;
+    width: 4.8rem;
     margin-top: 1.6rem;
+    display: flex;
     justify-content: center;
 }
 
@@ -61,7 +67,6 @@ img {
     width: 2.5rem;
     height: 2.5rem;
     margin-right: 14px;
-
 }
 
 .figtree-text {
@@ -77,11 +82,6 @@ img {
     font-weight: 800;
     font-style: normal;
   }
-
-/* Yellow: hsl(47, 88%, 63%)
-White: hsl(0, 0%, 100%)
-Grey: hsl(0, 0%, 50%)
-Black: hsl(0, 0%, 7%) */
 
 .attribution {
     font-size: 11px;
